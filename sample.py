@@ -22,7 +22,7 @@ data = [
 df = pd.DataFrame(data)
 
 # Write DataFrame to an Excel file
-excel_file = 'output1.xlsx'
+excel_file = 'output2.xlsx'
 df.to_excel(excel_file, index=False)
 
 print(f"Data successfully written to {excel_file}")
