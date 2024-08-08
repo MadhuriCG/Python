@@ -14,8 +14,8 @@
 *.pdf binary
 
 # Excel files are binary, so no need for encoding settings
-*.xlsx binary
-*.xls binary
+#*.xlsx binary
+#*.xls binary
 
 # Custom attributes for OMR configuration files
 *.omr text working-tree-encoding=utf-8 git-encoding=utf-8
