@@ -1,0 +1,21 @@
+# Set encoding for .json files to UTF-8
+*.json text working-tree-encoding=utf-8 git-encoding=utf-8
+
+# Set encoding for .xml files to UTF-8
+*.xml text working-tree-encoding=utf-8 git-encoding=utf-8
+
+# Set encoding for .csv files to UTF-8
+*.csv text working-tree-encoding=utf-8 git-encoding=utf-8
+
+# Treat .png files as binary
+*.png binary
+
+# Treat .pdf files as binary
+*.pdf binary
+
+# Excel files are binary, so no need for encoding settings
+#*.xlsx binary
+#*.xls binary
+
+# Custom attributes for OMR configuration files
+*.omr text working-tree-encoding=utf-8 git-encoding=utf-8
